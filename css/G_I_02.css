@@ -1,0 +1,274 @@
+body {
+	font-family: 'Montserrat', sans-serif;
+	box-sizing: border-box;
+	background: #fafafa;
+}
+.G_welcome {
+	width: 1100px;
+	margin: auto;
+}
+
+.G_welcome_img {
+	width: 1100px;
+
+}
+
+.G_welcome_text {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+		
+}
+.G_text_one {
+	background:#000;
+	color:#fff;
+	text-transform: uppercase;
+	font-size: 48px;
+	width: 50%;
+	margin-bottom: 40px;
+	padding: 10px 24px;
+}
+
+.G_text_two {
+	text-transform: uppercase;
+	font-size: 18px;
+  
+}
+.G_container_story_skills {
+	width: 100%;
+	display: flex;
+	margin: auto;
+	background: #fafafa;
+}
+
+.G_cont_img {
+
+}
+
+.G_biceps_woman {
+
+}
+
+.G_container {
+	width: 48%;
+	display: flex;
+	flex-direction: column;
+	margin-left: 52px;
+
+}
+
+.G_cont_our_story span {
+  font-size: 16px;
+  text-transform: uppercase;
+  text-align: left;
+  margin-bottom: 40px;
+  color: #000;
+   
+}
+
+.G_text_story {
+	font-size: 12px;
+	line-height: 2.5;
+	text-align: left;
+	margin-top: 35px;
+  
+}
+
+.G_container_skills {
+	width: 100%;
+	display: flex;
+	justify-content: flex-start;
+	/*align-items: center;*/
+	flex-direction: column;
+}
+
+.G_our_skills {
+	margin-bottom: 20px;
+	margin-top: 35px;
+	text-transform: uppercase;
+	font-size: 16px;
+	color: #000;
+	text-align: left;
+ 
+}
+
+
+.G_text_line_text {
+	margin-bottom: 20px;
+	margin-top: 20px;
+	font-size: 16px;
+	color: #2f302f;
+	font-weight: bold;
+ }
+
+.G_line_big {
+	height: 10px;
+	background: #ebebeb;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.G_line_small {
+	width: 85%;
+	display: flex;
+	border:1px solid #a1a1a1;
+	background:#a1a1a1;
+
+}
+
+.G_cyrcle {
+	width: 12px;
+	height: 12px;
+	border-radius: 50%;
+	background: #000000;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+}
+
+.G_cyrcle_small {
+	width: 4px;
+	height: 4px;
+	border-radius: 50%;
+	background: #fff;
+	align-self: center;
+}
+
+.delta {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: absolute;
+	top: -35px;
+	left: 6px;
+	/*width: 40px;
+	height: 20px;*/
+	background:black;
+	color:#fff;
+	font-size: 12px;
+	padding: 3px;
+}
+
+.delta:after {
+	content: "";
+	position: absolute;
+	top:18px;
+	left: -3px;
+	width: 0px;
+	border: 4px solid transparent;
+	border-top: 11px solid #000;
+	transform: rotate(21deg);
+}
+
+.G_contain_team {
+	display: flex;
+	flex-direction: column;
+
+	width: 100%;
+	margin: auto;
+	margin-top: 100px;
+	
+}
+
+.G_awes_team {
+	width: 60%;
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+}
+
+.G_heading_team {
+	text-transform: uppercase;
+	font-size: 16px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 45px;
+}
+
+.G_awes_team_p {
+	font-size: 12px;
+	line-height: 2.5;
+	text-align: center;
+}
+
+.G_containe_peoples {
+	display: flex;
+	width: 100%;
+	margin-top: 70px;
+}
+
+.G_container_people {
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 70px;
+	
+}
+
+.G_people_img  img{
+	width: 355px;
+	height: 435px;
+}
+h2 {
+  font-size: 20px;
+  font-weight: 400;
+  color: #041608;
+  text-transform: uppercase;
+  text-align: left;
+  
+}
+
+.G_people_text {
+	width: 33.3%
+	margin: 35px;
+	line-height: 2.1;
+	background: #fff;
+}
+
+.G_people_text span {
+	color: #777777;
+	text-align: left;
+	font-size: 14px;
+	font-weight: 500;
+}
+
+.G_people_text_p {
+	color:#9c9c9c;
+	font-size: 14px;
+	font-weight: 300;
+	text-align: left;
+	
+}
+.G_container_people:nth-child(even) {
+	margin:0 15px 0 15px; 
+} 
+footer{
+	width: 100%;
+	margin: auto;
+	background: #fff;
+	display: inline-flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.G_logo {
+	margin-top: 63px;
+	margin-bottom: 43px;
+}
+.G_containe_social {
+  font-size: 14px; 
+  text-transform: uppercase;
+  line-height: 2;
+  text-align: center;  
+}
+.G_containe_social span {
+	color: #9c9c9c;
+}
+
+
